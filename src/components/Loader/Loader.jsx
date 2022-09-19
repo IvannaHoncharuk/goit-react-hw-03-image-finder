@@ -1,5 +1,5 @@
 import { Box } from 'components/Box';
-import { Grid } from 'react-loader-spinner';
+import { FallingLines } from 'react-loader-spinner';
 
 export const Loader = () => (
   <Box
@@ -13,7 +13,7 @@ export const Loader = () => (
     height="100vh"
     bg="#0000005e"
   >
-    <Grid
+    <FallingLines
       height="160"
       width="160"
       radius="9"

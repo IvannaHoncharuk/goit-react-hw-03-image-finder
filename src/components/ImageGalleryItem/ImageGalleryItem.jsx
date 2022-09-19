@@ -1,6 +1,6 @@
 
 import PropTypes from 'prop-types';
-import { GalleryItem, PicGallery } from './ImageGalleryItem';
+import { GalleryItem, PicGallery } from './ImageGalleryItem.styled';
 
 export const ImageGalleryItem = ({
   id,
